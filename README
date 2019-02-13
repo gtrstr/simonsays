@@ -1,6 +1,6 @@
 Simon Says Game
 
-Can be deployed using HTML/CSS + JS
+Can be deployed using HTML/CSS + JS in an editor. I use Atom.
 
 Create four rounded sections within a centered grid to act
 as the buttons of the simon game
