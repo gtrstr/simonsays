@@ -1,0 +1,16 @@
+Simon Says Game
+
+Can be deployed using HTML/CSS + JS
+
+Create four rounded sections within a centered grid to act
+as the buttons of the simon game
+
+On hitting "start", a function will randomly pick a # from 1-4,
+each number corresponding to one of the four buttons. The
+function will save that number in a list (iterating over this
+list will function as the order in which the buttons should
+be pressed)
+
+The button will "light up" and play a noise. Then it is the player's
+turn. If the player selects correctly, the game continues. Otherwise,
+a "Sorry Try Again" message appears and the player must restart

@@ -1,0 +1,60 @@
+
+.center-container {
+  display: flex;
+  justify-content: center;
+  margin: 50px 0;
+}
+
+.simon-container {
+  display: grid;
+  justify-content: center;
+  grid-template-columns: 200px 200px;
+  grid-column-gap: 0;
+}
+
+/*
+  ========================================
+  Simon Buttons
+  ========================================
+*/
+
+.simon-top-left {
+  grid-column: 1;
+  grid-row: 1;
+  background:green;
+  width:200px;
+  height:200px;
+  border-radius: 200px 0 0 0;
+    -moz-border-radius: 200px 0 0 0;
+    -webkit-border-radius: 200px 0 0 0;
+}
+.simon-top-right{
+  grid-column: 2;
+  grid-row: 1;
+  background:red;
+  width:200px;
+  height:200px;
+  border-radius: 0 200px 0 0;
+    -moz-border-radius: 0 200px 0 0;
+    -webkit-border-radius: 0 200px 0 0;
+}
+.simon-bot-left{
+  grid-column: 1;
+  grid-row: 2;
+  background:yellow;
+  width:200px;
+  height:200px;
+  border-radius: 0 0 0 200px;
+    -moz-border-radius: 0 0 0 200px;
+    -webkit-border-radius: 0 0 0 200px;
+}
+.simon-bot-right{
+  grid-column: 2;
+  grid-row: 2;
+  background:blue;
+  width:200px;
+  height:200px;
+  border-radius: 0 0 200px 0;
+    -moz-border-radius: 0 0 200px 0;
+    -webkit-border-radius: 0 0 200px 0;
+}
